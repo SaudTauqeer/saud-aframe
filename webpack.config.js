@@ -12,13 +12,15 @@ module.exports = {
   },
   devtool: "inline-source-map",
   devServer: {
+    watchFiles: ["src/**/*.ts", "src/**/*.html"],
     static: {
       directory: path.join(__dirname, "dist"),
     },
+
     compress: true,
     port: 8080,
     open: true,
-    hot: true,
+    hot: false,
     liveReload: true,
   },
   resolve: {
