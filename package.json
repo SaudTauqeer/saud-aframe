@@ -12,11 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aframe": "^1.4.2",
     "rxjs": "^7.8.1",
     "serve": "^14.2.1"
   },
   "devDependencies": {
+    "@types/aframe": "^1.2.4",
     "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
     "html-webpack-plugin": "^5.5.3",
     "ts-loader": "^9.5.0",
     "typescript": "^5.2.2",

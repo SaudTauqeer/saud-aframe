@@ -8,8 +8,26 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="0 1 -5" rotation="0 45 0" color="purple"></a-box>
+      <a-assets>
+        <a-asset-item
+          id="saud-model"
+          src="https://models.readyplayer.me/6539b9e503fbd3bd39f1d207.glb"
+        ></a-asset-item>
+      </a-assets>
+
       <a-sky color="#ECECEC"></a-sky>
+
+      <a-entity gltf-model="#saud-model" position="0 1 -5" scale="0.5 0.5 0.5">
+        <a-animation
+          attribute="rotation"
+          begin="mouseenter"
+          to="0 15 0"
+          dur="500"
+          direction="alternate"
+          repeat="5"
+        >
+        </a-animation>
+      </a-entity>
     </a-scene>
   </body>
 </html>
