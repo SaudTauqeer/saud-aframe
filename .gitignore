@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+
+# TypeScript compiled files
+dist/
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Optional npm package-lock files
+package-lock.json
+npm-debug.log*
+
+# Optional Yarn v1 logs
+yarn-debug.log*
+yarn-error.log*
+
+# Optional Yarn v2
+.pnp/
+.pnp.js
+# Yarn Integrity file
+.yarn-integrity
+
+# Optional dotenv environment variable files
+.env
+.env.test
+
+# Optional editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
